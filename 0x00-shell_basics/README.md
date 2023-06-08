@@ -8,4 +8,5 @@ delete directory
 change directory
 list all files
 print file
-symbolic link 
+symbolic link
+copy all the html 
