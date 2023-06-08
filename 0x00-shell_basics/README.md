@@ -7,4 +7,5 @@ delete file
 delete directory
 change directory
 list all files
-print file 
+print file
+symbolic link 
