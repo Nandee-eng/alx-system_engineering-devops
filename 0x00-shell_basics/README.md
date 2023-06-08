@@ -1,2 +1,3 @@
-shell basics
-Display current directory contents, including hidden files 
+#!/bin/bash
+shell basic
+display current directory 
