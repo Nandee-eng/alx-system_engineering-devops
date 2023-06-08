@@ -1,4 +1,5 @@
 #!/bin/bash
 shell basic
 display current directory
-create a directory 
+create a directory
+moving a file 
