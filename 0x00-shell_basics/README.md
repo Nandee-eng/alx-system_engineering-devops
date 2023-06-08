@@ -2,4 +2,5 @@
 shell basic
 display current directory
 create a directory
-moving a file 
+moving a file
+delete file 
