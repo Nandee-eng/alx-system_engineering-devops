@@ -5,4 +5,5 @@ create a directory
 moving a file
 delete file
 delete directory
-change directory 
+change directory
+list all files 
