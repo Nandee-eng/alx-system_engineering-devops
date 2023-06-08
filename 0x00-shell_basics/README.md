@@ -6,4 +6,5 @@ moving a file
 delete file
 delete directory
 change directory
-list all files 
+list all files
+print file 
