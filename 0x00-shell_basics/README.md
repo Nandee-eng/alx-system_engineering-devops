@@ -4,4 +4,5 @@ display current directory
 create a directory
 moving a file
 delete file
-delete directory 
+delete directory
+change directory 
