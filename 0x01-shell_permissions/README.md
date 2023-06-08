@@ -1,1 +1,2 @@
-shell permissions
+#!/bin/bash
+creating a script
