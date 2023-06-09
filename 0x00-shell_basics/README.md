@@ -13,4 +13,5 @@ copy all the html
 move all files
 delete all file
 create directory
-list 
+list
+creating a magic file 
