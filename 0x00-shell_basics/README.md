@@ -9,4 +9,5 @@ change directory
 list all files
 print file
 symbolic link
-copy all the html 
+copy all the html
+move all files 
