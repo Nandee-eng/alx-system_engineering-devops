@@ -11,4 +11,5 @@ print file
 symbolic link
 copy all the html
 move all files
-delete all file 
+delete all file
+create directory 
