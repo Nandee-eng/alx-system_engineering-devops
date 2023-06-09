@@ -10,4 +10,5 @@ list all files
 print file
 symbolic link
 copy all the html
-move all files 
+move all files
+delete all file 
