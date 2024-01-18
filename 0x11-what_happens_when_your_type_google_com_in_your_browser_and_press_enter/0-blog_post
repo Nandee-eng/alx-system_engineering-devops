@@ -1,1 +1,29 @@
 
+# What Happens When You Type a URL in Your Browser?
+When you type https://www.google.com in your browser and hit enter, a series of events occur behind the scenes to fetch and display the webpage to you. Let's break down this process step by step.
+
+### DNS Request
+The journey begins with the Domain Name System (DNS). The URL you typed, https://www.google.com, starts with https://, followed by the domain name www.google.com. Your computer doesn't know the IP address associated with www.google.com, so it sends a DNS query to find out. A DNS server responds with the IP address associated with www.google.com.
+
+### TCP/IP Connection
+Once the DNS has resolved the domain name to an IP address, your computer establishes a TCP/IP connection with the server hosting www.google.com. TCP/IP, or Transmission Control Protocol/Internet Protocol, is the set of rules that govern how data is sent and received over the internet.
+
+### Firewall
+Next, any firewalls in place come into play. Firewalls monitor and control incoming and outgoing network traffic based on predetermined security rules. They allow or block connections based on these rules.
+
+### HTTPS/SSL
+After the secure connection is established, the browser requests the webpage using HTTPS (Hypertext Transfer Protocol Secure), which encrypts the communication between the browser and the server. SSL (Secure Sockets Layer) provides this encryption.
+
+### Load Balancer
+If Google's servers are under heavy load, a load balancer might direct your request to different servers. Load balancers distribute network or application traffic across multiple servers to ensure no single server becomes a bottleneck.
+
+### Web Server
+The request then reaches a web server, which hosts the website files. The web server processes the request and returns the requested webpage content .
+
+### Application Server
+If the webpage relies on dynamic content, such as user-specific data or real-time updates, it communicates with an application server. The application server performs operations like processing form submissions or handling user interactions.
+
+### Database
+Finally, if the page requires data from a database, such as a user profile or product details, the application server interacts with the database. The database stores and retrieves data as needed 
+
+And that's it! Once all these steps are completed, the webpage is displayed in your browser.
