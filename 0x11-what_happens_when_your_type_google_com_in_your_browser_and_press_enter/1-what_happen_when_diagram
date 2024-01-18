@@ -1,1 +1,22 @@
+Creating a schema or diagram to illustrate the flow of the request when typing https://www.google.com in your browser involves several steps. Here's a simple textual representation of the process:
 
+``User Input -> DNS Resolution -> TCP/IP Connection -> Firewall -> Load Balancer -> Web Server -> Application Server -> Database -> Rendered Page``
+To create a visual representation, you could use a tool like Gliffy, Microsoft Visio, Draw.io, etc. Unfortunately, I'm unable to create diagrams here. However, I can describe how the diagram would look:
+
+Start with the "User Input" box at the leftmost side of the diagram.
+Draw an arrow pointing to the right from "User Input", label it "Type URL".
+At the next box, represent "DNS Resolution" and draw an arrow from "URL" to "DNS Resolution".
+Continue this process, drawing arrows from one box to another, until you reach "Rendered Page".
+Each box represents a step in the process, and the arrows represent the flow of the request. Make sure to label each box clearly so that anyone reading the diagram can understand what each step entails.
+
+### Remember, the key elements to include in the diagram are:
+
+#### DNS resolution
+    Request reaching server IP on the appropriate port
+    Traffic being encrypted
+    Traffic going through a firewall
+    Request being distributed via a load balancer
+    Web server answering the request by serving a web page
+    Application server generating the web page
+    Application server requesting data from the database
+Once you've created your diagram, save it as an image file and upload it to a platform like Imgur or Dropbox. Share the URL of the image in your blog post.
